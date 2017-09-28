@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  height: "100%";
+  background-image: url("./back.png");
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  /*height: 100vh;*/
+  display: flex;
+  background-position: "center";
+  flex-direction: column;
+}
+
+.Content {
+  width: 50%; 
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 0px;
+  /*min-width: 350px;*/
+  position: relative;
+  display: flex;
+  bottom: 0px;
+  flex-direction: column;
+}
+
+.BoxOne {
+  margin-top: 60px;
+  height: 300px;
+}
+
+.p1 {
+  font-family: Lora, Georgia, serif;
+  font-size: 24px;
+  color: white;
+}
+
+.BoxTwo {
+  vertical-align: middle;
+  height: 150px;
+  line-height: 150px;
+}
+
+.p2 {
+  font-family: Lora, Georgia, serif;
+  font-size: 18px;
+  color: white;
+}
+
+.contact {
+  font-family: Lora, Georgia, serif;
+  font-size: 16px;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .Content {
+    width: 90%;
+  }
+
+  .BoxOne {
+    height: auto;
+  }
+}
+
+/*.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}*/
+
+/*.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}*/
+
+/*.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}*/
+
+/*@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
