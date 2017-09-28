@@ -29,7 +29,7 @@ class App extends Component {
         </div>
         <div className="BoxTwo">
           <p className="contact">
-            info@teis.capital
+            <a href="mailto:info@teis.capital"> info@teis.capital </a>
           </p>
         </div>
         </div>
